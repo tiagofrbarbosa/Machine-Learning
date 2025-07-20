@@ -29,18 +29,14 @@ O pipeline de aprendizado supervisionado inclui:
 5. **Divisão em conjunto de treino e teste**
 6. **Treinamento de modelos**
 7. **Avaliação com métricas como Accuracy, Precision, Recall e F1-Score**
-8. **Matriz de confusão e curva ROC/AUC**
+8. **Matriz de confusão**
 
 ---
 
 ## 🛠️ Modelos Utilizados
 
-- **Regressão Logística**
 - **Random Forest**
-- **Gradient Boosting (XGBoost, opcional)**
-- **K-Nearest Neighbors**
-- **Support Vector Machine (SVM)**
-- **Multinomial Naive Bayes** (se aplicável ao problema)
+- **KMeans
 
 ---
 
@@ -50,8 +46,6 @@ O pipeline de aprendizado supervisionado inclui:
 - **F1-Score**
 - **Precision**
 - **Recall**
-- **AUC-ROC**
-- **Tempo de execução**
 
 ---
 
@@ -70,7 +64,6 @@ O pipeline de aprendizado supervisionado inclui:
 - matplotlib
 - seaborn
 - scikit-learn
-- xgboost (se aplicável)
 
 ---
 
